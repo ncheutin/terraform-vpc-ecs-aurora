@@ -6,9 +6,9 @@ terraform {
   }
 
   cloud {
-    organization = "hyt"
+    organization = "YOUR-ORGANIZATION-IN-TERRAFORM-CLOUD"
     workspaces {
-      name = "staging-eu-central"
+      name = "WORKSPACE-NAME-IN-TERRAFORM-CLOUD"
     }
   }
 }

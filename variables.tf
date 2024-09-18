@@ -5,14 +5,13 @@ variable "aws_region" {
 variable "tags" {
   type = map(string)
   default = {
-    "application" = "hyt"
+    "application" = "my-app"
     "automation" = "terraform"
   }
 }
 
 variable "stack_name" {
   type = string
-  default = "hyt"
 }
 
 ############ VPC ############
